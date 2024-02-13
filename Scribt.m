@@ -7,12 +7,16 @@ R_Charage=Data(:,3);
 R_DisCharage=Data(:,4);
 %plot
 plot(SOC,OCV)
-figure
-plot(SOC,OCV)
+xlabel('SOC');
+ylabel('OCV');
 figure
 plot(SOC,R_Charage)
+xlabel('SOC');
+ylabel('R_Charage');
 figure
 plot(SOC,R_DisCharage)
+xlabel('SOC');
+ylabel('R_DisCharage');
 %define Parameters
 i=2.3;
 Cn=2.3*3600;%capacity by seconds;
